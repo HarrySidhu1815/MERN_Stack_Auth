@@ -49,7 +49,7 @@ const SignIn = () => {
       <div className='flex gap-2 mt-5'>
         <p>Dont have an account?</p>
         <Link to='/sign-up'>
-            <span className='text-blue-500'>Sign Up</span>
+            <span className='text-blue-500'>Sign In</span>
         </Link>
       </div>
       <p className='text-red-700 mt-5' >{error ? error.message || 'Something went wrong!' : ''}</p>
